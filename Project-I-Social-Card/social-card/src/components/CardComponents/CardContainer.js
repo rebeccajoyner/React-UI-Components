@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card.css';
+import CardBanner from './CardBanner';
 
 
 
@@ -8,7 +9,7 @@ import './Card.css';
 const CardContainer = () => {
     return (
         <div>
-         
+         <CardBanner />
        </div>
     );
 };
