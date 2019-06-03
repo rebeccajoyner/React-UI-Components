@@ -5,7 +5,7 @@ import './Header.css';
 const ImageThumbnail = () => {
     return (
 
-        <img src={"lambdacrest.png"} alt="lambdalogo" />
+        <img src={"lambdacrest.png"} alt="logo" />
  
     );
     };
