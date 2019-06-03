@@ -1,32 +1,17 @@
 import React from 'react';
 import './Header.css';
 import ImageThumbnail from './ImageThumbnail';
-import HeaderTitle from './HeaderTitle';
 
 
 
-const Headercontainer = () => {
+const HeaderContainer = () => {
     return (
-        <div className="headerContainer">
+        <div>
             <ImageThumbnail />
        </div>
     );
 };
 
 
-export default Headercontainer;
+export default HeaderContainer;
 
-
-// const Input = () => {
-//     return (
-//       <form>
-//         <label>
-//           Name:
-//           <input type="text" name="name" />
-//         </label>
-//         <input type="submit" value="Submit" />
-//       </form>
-//     );
-//   };
-  
-//   export default Input;
