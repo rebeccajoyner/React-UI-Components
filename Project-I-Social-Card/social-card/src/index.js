@@ -3,26 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-import imgThumb from "./components/HeaderComponents/ImageThumbnail.js";
-// import imgThumb from "./components/HeaderComponents/HeaderContainer.js";
+// import HeaderContainer from "./HeaderContainer";
 
 
 
-<div className="App">
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
 
 
 
