@@ -3,37 +3,57 @@
 
 .LambdaLogo img {
 
+    float: left;
+    padding: 0.3rem;
+    margin-bottom: 100%;
+
+    border: 2px dotted blueviolet;
+}
 
 
-    border: 4px dotted blueviolet;
+.LambdaHead {
+
+    
+    direction: flex;
+    flex-direction: row;
+
+    border: 4px dotted deeppink;
 }
 
 
 .LambdaHead  h1 {
 
-
+    
+    font-size: 1.5rem;
+    direction: flex;
 
     border: 3px dashed darkseagreen;
 }
 
 .LambdaHead h2 {
 
+    
     color: grey;
     font-size: 0.9rem;
+    direction: flex;
 
-    border: 3px solid salmon;
+    border: 3px solid teal;
 }
 
 .HeadCont p {
 
     font-size: 1rem;
+    display: block;
 
     border: 3px dashed darkturquoise;
 }
 
 
-.ReactLogo {
+.ReactLogo img {
 
+    display: flex;
+    height: 17rem;
+    width: 80%;
 
-    border: 4px solid hotpink;
+    border: 4px solid salmon;
 }
