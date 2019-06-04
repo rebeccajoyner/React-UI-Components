@@ -1,2 +1,19 @@
 /* All styles for your header Components live here */
 
+.LambdaHead  h1 {
+
+    
+}
+
+.LambdaHead h2 {
+
+    color: grey;
+    font-size: 0.9rem;
+
+}
+
+.HeadCont p {
+
+    font-size: 1rem;
+
+}
