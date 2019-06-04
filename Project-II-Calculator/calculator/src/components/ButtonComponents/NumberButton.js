@@ -21,9 +21,9 @@ const NumberButton = () => {
 
 
         </div>
-    )
+    );
 
-}
+};
 
 
 export default NumberButton;
