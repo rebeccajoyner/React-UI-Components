@@ -21,13 +21,18 @@ body {
 
 .LambdaTitle {
 
-    margin-left: 4rem;
+    
     direction: flex;
     flex-wrap: nowrap;
+    flex-direction: row;
 
-    width: 90%;
+    margin-left: 4rem;
+    margin-right: 0.1rem;
+    margin-top: 0.1rem;
 
-    /* justify-content: right; */
+   height: 7rem;
+   width: auto;
+
   
 
 
@@ -38,10 +43,12 @@ body {
 
 .LambdaTitle  h1 {
 
-    
-    
-    /* font-size: 1rem; */
-    /* font-weight: bold; */
+    font-size: 1rem;
+    font-weight: bold;
+
+
+    float: left;
+
 
     border: 2px dotted limegreen;
 }
@@ -51,9 +58,11 @@ body {
 
 .LambdaTitle h2 {
 
-    
     color: grey;
-    /* font-size: 0.8rem; */
+    font-size: 0.8rem;
+
+
+    padding: 2px;
 
 
     border: 2px dotted mediumturquoise;

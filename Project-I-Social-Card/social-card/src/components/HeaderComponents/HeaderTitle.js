@@ -8,11 +8,16 @@ const HeaderTitle = () => {
 
         <div class="LambdaTitle">
 
-            <h1>Lambda School&nbsp;&nbsp;</h1>
-            <h2>@LambdaSchool</h2>
+            <div class="Title">
+                <h1>Lambda School&nbsp;&nbsp;</h1>
+             </div>
+        
+
+            <div class="Twitter">
+                <h2>@LambdaSchool</h2>
+            </div>
             
         </div>
-        
     );
 };
 
