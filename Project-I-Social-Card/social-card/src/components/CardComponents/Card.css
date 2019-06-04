@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+.ReactLogo img {
+
+    display: flex;
+    height: 17rem;
+    width: 80%;
+
+    border: 3px solid salmon;
+}
