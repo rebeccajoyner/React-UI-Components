@@ -9,6 +9,7 @@ const NumberButton = () => {
 
         <div class="NumButton">
 
+{/*     [[placeholder]] 
             <h3>7</h3>
             <h3>8</h3>
             <h3>9</h3>
@@ -18,6 +19,7 @@ const NumberButton = () => {
             <h3>1</h3>
             <h3>2</h3>
             <h3>3</h3>
+            [[placeholder]] */}
 
 
         </div>

@@ -10,9 +10,7 @@ const CalculatorDisplay = () => {
 
             <h4>0.0</h4>
 
-
         </div>
-
 
     );
 };
