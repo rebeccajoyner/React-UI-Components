@@ -5,7 +5,7 @@
     height: 15rem;
     width: auto;
 
-    border: 3px solid salmon;
+    border: 2px solid cyan;
 }
 
 
@@ -18,7 +18,7 @@
     height: auto;
     
 
-    border: 5px double yellowgreen;
+    border: 2px solid powderblue;
 }
 
 .CardCont h3 {
@@ -27,7 +27,7 @@
     font-weight: bolder;
 
 
-    border: 2px solid plum;
+    border: 2px dashed lightseagreen;
 }
 
 .CardCont p {
@@ -35,7 +35,7 @@
     font-size: 0.9rem;
 
 
-    border: 2px solid orange;
+    border: 2px dashed orange;
 }
 
 
@@ -44,5 +44,5 @@
     font-size: 0.9rem;
     color: grey;
 
-    border: 2px solid lightskyblue;
+    border: 2px dashed lightcoral;
 }

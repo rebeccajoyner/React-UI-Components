@@ -12,7 +12,7 @@ const HeaderContainer = () => {
         <div>
             <ImageThumbnail />
 
-            <HeaderTitle />
+           {/* <HeaderTitle /> */}
 
             <HeaderContent />
         </div>

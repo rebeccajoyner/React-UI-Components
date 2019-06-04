@@ -2,16 +2,19 @@
 
 body {
     max-width: 700px;
+
+    border: 3px solid darkorange;
 }
 
 .LambdaLogo img {
 
     float: left;
+    margin-top: 2px;
 
     height: 3.5rem;
     width: 3.5rem;
 
-    border: 2px dashed blueviolet;
+    border: 2px solid lightskyblue;
 }
 
 
@@ -27,7 +30,7 @@ body {
   
 
 
-    border: 4px dotted deeppink;
+    border: 2px dashed deeppink;
 }
 
 
@@ -39,7 +42,7 @@ body {
     /* font-size: 1rem; */
     /* font-weight: bold; */
 
-    border: 3px solid darkseagreen;
+    border: 2px dotted limegreen;
 }
 
 
@@ -52,9 +55,17 @@ body {
     /* font-size: 0.8rem; */
 
 
-    border: 3px solid teal;
+    border: 2px dotted mediumslateblue;
 }
 
+
+
+.HeadCont {
+
+    width: 100%;
+
+    border: 2px solid darkorchid;
+}
 
 
 
@@ -65,7 +76,7 @@ body {
     margin-left: 4rem;
     width: 90%;
 
-    border: 3px dashed darkturquoise;
+    border: 2px dashed salmon;
 }
 
 
