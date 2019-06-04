@@ -1,8 +1,19 @@
 /* All styles for your header Components live here */
 
+
+.LambdaLogo img {
+
+
+
+    border: 4px dotted blueviolet;
+}
+
+
 .LambdaHead  h1 {
 
-    
+
+
+    border: 3px dashed darkseagreen;
 }
 
 .LambdaHead h2 {
@@ -10,10 +21,19 @@
     color: grey;
     font-size: 0.9rem;
 
+    border: 3px solid salmon;
 }
 
 .HeadCont p {
 
     font-size: 1rem;
 
+    border: 3px dashed darkturquoise;
+}
+
+
+.ReactLogo {
+
+
+    border: 4px solid hotpink;
 }
