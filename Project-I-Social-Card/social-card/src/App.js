@@ -4,7 +4,7 @@ import './App.css';
 
 import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
 import CardContainer from "./components/CardComponents/CardContainer";
-
+import Foot from "./components/FooterComponents/Foot";
 
 
 
@@ -15,6 +15,9 @@ const App = () => {
       <HeaderContainer />
       
       <CardContainer />
+
+      <Foot />
+
     </div>
   );
 };
