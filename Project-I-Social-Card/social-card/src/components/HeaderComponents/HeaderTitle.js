@@ -6,7 +6,7 @@ import './Header.css';
 const HeaderTitle = () => {
     return (
 
-        <div class="LambdaHead">
+        <div class="LambdaTitle">
 
             <h1>Lambda School&nbsp;&nbsp;</h1>
             <h2>@LambdaSchool</h2>

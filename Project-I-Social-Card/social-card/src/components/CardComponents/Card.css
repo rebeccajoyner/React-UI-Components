@@ -1,7 +1,7 @@
 /* All styles for your Card Components live here */
 .ReactLogo img {
 
-    
+    margin-left: 4rem;    
     height: 15rem;
     width: auto;
 
@@ -10,13 +10,13 @@
 
 
 .CardCont {
-
-    display: block;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
     
-    /* margin: 0 auto; */
 
     height: auto;
-    width: 95%;
+    
 
     border: 5px double yellowgreen;
 }
