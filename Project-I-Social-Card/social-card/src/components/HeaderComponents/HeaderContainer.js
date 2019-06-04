@@ -12,6 +12,8 @@ const HeaderContainer = () => {
             <ImageThumbnail />
 
             <HeaderTitle />
+
+            <HeaderContent />
        </div>
     );
 };
