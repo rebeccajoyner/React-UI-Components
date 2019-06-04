@@ -1,9 +1,45 @@
 /* All styles for your Card Components live here */
 .ReactLogo img {
 
-    display: flex;
-    height: 17rem;
-    width: 80%;
+    /* display: flex; */
+    height: 15rem;
+    width: auto;
 
     border: 3px solid salmon;
+}
+
+
+.CardCont {
+
+    height: 9rem;
+    width: 95%;
+
+    border: 5px double yellowgreen;
+}
+
+.CardCont h3 {
+
+    font-size: 1rem;
+    font-weight: bolder;
+    height: 1.3rem;
+
+
+    border: 2px solid plum;
+}
+
+.CardCont p {
+
+    font-size: 0.9rem;
+
+
+    border: 2px solid cadetblue;
+}
+
+
+.CardCont h4 {
+
+    font-size: 0.9rem;
+    color: grey;
+
+    border: 2px solid lightskyblue;
 }

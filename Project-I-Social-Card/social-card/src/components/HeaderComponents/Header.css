@@ -13,9 +13,12 @@
 
 .LambdaHead {
 
-    
+
     direction: flex;
     flex-wrap: wrap;
+    /* flex-direction: row; */
+    height: 3.5rem;
+    width: 95%;
 
     border: 4px dotted deeppink;
 }
@@ -24,8 +27,10 @@
 .LambdaHead  h1 {
 
     
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     direction: flex;
+
+    width: 15rem;
 
     border: 3px dashed darkseagreen;
 }
@@ -37,6 +42,8 @@
     font-size: 0.9rem;
     direction: flex;
 
+    width: 15rem;
+
     border: 3px solid teal;
 }
 
@@ -44,6 +51,8 @@
 
     font-size: 1rem;
     display: block;
+
+    width: 95%;
 
     border: 3px dashed darkturquoise;
 }
