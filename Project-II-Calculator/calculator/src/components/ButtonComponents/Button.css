@@ -1,2 +1,46 @@
 
 
+.btnAll {
+    display: flex;
+    /* flex-wrap: nowrap; */
+
+    height: 80px;
+    width: 450px;
+
+    /* justify-content: space-between; */
+
+    border: 1px solid plum;
+}
+
+.btnAll .btnMath {
+
+    display: flex;
+    flex-basis: 100%;
+    
+ 
+    background: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    width: auto;
+    justify-content: center;
+    max-width: 73px;
+    
+    
+    border: 2px dashed purple;
+}
+
+.btnNum {
+
+    width: 97%;
+
+    border: 2px dotted lightcoral;
+}
+
+.large-btn {
+
+    width: 99%;
+
+    border: 3px dashed cornflowerblue;
+}
+
+

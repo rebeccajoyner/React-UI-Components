@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './Button.css';
 
@@ -5,17 +6,16 @@ import './AllButton';
 
 
 
-
-const NumberButton = (props) => {
+const MathButton = (props) => {
     return (
         <div className="btnAll">
 
-        <button className={`btn-num ${props.className}`}>
+        <button className={props.btnMath}>
             {props.text}
-        </button>
+            </button>
         </div>
     );
 };
 
 
-export default NumberButton;
+export default MathButton;

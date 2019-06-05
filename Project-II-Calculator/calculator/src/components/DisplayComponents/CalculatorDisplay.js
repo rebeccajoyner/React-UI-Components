@@ -7,7 +7,7 @@ import './Display.css';
 
 const CalculatorDisplay = () => {
     return (
-        <div className="CalDisplay">0</div>
+        <div className="display-bar">0</div>
     );
   };
 

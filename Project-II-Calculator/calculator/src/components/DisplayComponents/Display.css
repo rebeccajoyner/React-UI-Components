@@ -1,0 +1,16 @@
+
+.display-bar {
+
+    font-size: 47px;
+    color: salmon;
+    background: grey;
+    text-align: right;
+    
+    
+
+    height: 90px;
+    width: 100%;
+    order: -1;
+
+    /* border: 3px dotted paleturquoise; */
+}
