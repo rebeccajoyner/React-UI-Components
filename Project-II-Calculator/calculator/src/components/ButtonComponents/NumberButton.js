@@ -1,17 +1,17 @@
 import React from 'react';
 import './Button.css';
-import ActionButton from './ActionButton';
+
 
 
 
 
 const NumberButton = (props) => {
     return (
-        <button className='act-btn'>
+        <button className={props.buttonStyle}>
             {props.text}
         </button>
     );
 };
 
 
-export default ActionButton;
+export default NumberButton;

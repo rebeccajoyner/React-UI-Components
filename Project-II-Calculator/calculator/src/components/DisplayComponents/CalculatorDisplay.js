@@ -7,9 +7,9 @@ import NumberButton from './NumberButton';
 
 const CalculatorDisplay = () => {
     return (
-    <div className="calc-math">0.000
+    <div className="calc-btn">0.000
             <div class="Display">
-            <p>0.000000</p>
+            <h1>000000</h1>
            </div>
 
         <div class="Action"> 
