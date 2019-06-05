@@ -7,9 +7,12 @@ import './Button.css';
 
 const NumberButton = (props) => {
     return (
-        <button className={props.buttonStyle}>
+        <div className="btnAll">
+
+        <button className={props.btnNum}>
             {props.text}
-        </button>
+            </button>
+        </div>
     );
 };
 

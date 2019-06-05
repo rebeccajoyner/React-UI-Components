@@ -5,9 +5,12 @@ import './Button.css';
 
 const ActionButton = props => {
     return (
+        <div className="btnAll">
+
         <button className={`large-btn ${props.className}`}>
         {props.text}
-        </button>
+            </button>
+        </div>
     );
 };
 
