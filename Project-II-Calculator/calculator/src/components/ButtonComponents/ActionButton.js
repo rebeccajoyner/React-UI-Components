@@ -1,23 +1,14 @@
 import React from 'react';
 import './Button.css';
-import NumberButton from './NumberButton';
 
 
-const ActionButton = () => {
+
+const ActionButton = props => {
     return (
-        <div class="actBtn">
-
-            <h1>clear</h1>
-                <NumberButton />
-            <h2>0</h2>
-
-        </div>
+        <button className={`large-btn ${props.className}`}>
+        {props.text}
+        </button>
     );
 };
 
-
 export default ActionButton;
-
-
-
-
