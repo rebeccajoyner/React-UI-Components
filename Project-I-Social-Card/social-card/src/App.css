@@ -2,3 +2,155 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+/* //HEADER.CSS */
+
+
+
+body {
+  max-width: 700px;
+
+  border: 3px solid darkorange;
+}
+
+.LambdaLogo img {
+
+  float: left;
+  margin-top: 4px;
+  margin-left: 4px;
+
+  height: 3.5rem;
+  width: 3.5rem;
+
+  border: 2px solid lightskyblue;
+}
+
+
+.LambdaTitle {
+
+  
+  direction: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+  margin-left: 4rem;
+  margin-right: 0.1rem;
+  margin-top: 0.1rem;
+
+ height: 2.5rem;
+ width: auto;
+
+
+
+
+  border: 2px dashed deeppink;
+}
+
+
+
+.LambdaTitle  h1 {
+
+  font-size: 1rem;
+  font-weight: bold;
+
+
+  float: left;
+
+
+  border: 2px dotted limegreen;
+}
+
+
+
+
+.LambdaTitle h2 {
+
+  color: grey;
+  font-size: 0.8rem;
+
+
+  padding: 2px;
+
+
+  border: 2px dotted mediumturquoise;
+}
+
+
+
+.HeadCont {
+
+  width: 100%;
+  height: 6rem;
+  
+
+  border: 2px solid darkorchid;
+}
+
+
+
+.HeadCont p {
+
+  display: inline-flexbox;
+  font-size: 0.86rem;
+  margin-left: 4rem;
+  margin-right: 0.1rem;
+  margin-top: 0.2rem;
+  
+  
+
+ height: auto;
+ width: auto;
+
+  border: 2px dashed salmon;
+}
+
+/* ///////CARD.CSS///////// */
+
+
+
+.ReactLogo img {
+
+  margin-left: 4rem;    
+  height: 17rem;
+  width: 87%;
+
+  border: 2px solid cyan;
+}
+
+
+.CardCont {
+ 
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem; 
+  align-items: flex-start;
+  height: auto;
+  
+
+  border: 2px solid plum;
+}
+
+.CardCont h3 {
+
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 0;
+
+  border: 2px dashed lightseagreen;
+}
+
+.CardCont p {
+  margin: 0;
+  font-size: 0.9rem;
+
+
+  border: 2px dashed orange;
+}
+
+
+.CardCont h4 {
+  margin: 0;
+  font-size: 0.8rem;
+  color: grey;
+
+  border: 2px dashed lightcoral;
+}

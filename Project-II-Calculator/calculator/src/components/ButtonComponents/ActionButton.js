@@ -4,17 +4,14 @@ import NumberButton from './NumberButton';
 
 
 const ActionButton = () => {
-    
     return (
-
-        <div class="ActButton">
+        <div class="ActBtn">
 
             <h2>clear</h2>
-            
+                <NumberButton />
             <h2>0</h2>
 
         </div>
-
     );
 };
 
