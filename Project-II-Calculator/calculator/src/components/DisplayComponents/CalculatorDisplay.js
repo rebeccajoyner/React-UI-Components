@@ -7,7 +7,7 @@ import './Display.css';
 
 const CalculatorDisplay = () => {
     return (
-        <div className="display-bar">0</div>
+        <div className="display-bar">0.0000</div>
     );
   };
 

@@ -1,10 +1,10 @@
 
 
 .calc-body {
-    /* display: flex; */
     height: 500px;
     width: 450px;
+    margin: 2px auto;
+    padding: 11px;
 
-    border: 2px double dodgerblue;
 }
 

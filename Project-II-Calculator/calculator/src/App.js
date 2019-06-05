@@ -13,6 +13,7 @@ import AllButton from './components/ButtonComponents/AllButton';
 const App = () => {
   return (
     <div className="calc-body">
+      
       <CalculatorDisplay />
 
 

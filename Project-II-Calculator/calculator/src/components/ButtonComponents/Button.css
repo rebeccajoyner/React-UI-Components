@@ -7,6 +7,8 @@
     height: 80px;
     width: 450px;
 
+
+
     /* justify-content: space-between; */
 
     border: 1px solid plum;
@@ -16,31 +18,41 @@
 
     display: flex;
     flex-basis: 100%;
-    
+
  
     background: salmon;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 27px;
-    width: auto;
+   color: rgb(149, 131, 203);
+   font-weight: bold;
+
     justify-content: center;
-    max-width: 73px;
+
     
     
-    border: 2px dashed purple;
+    border: 4px dotted rgb(185, 81, 220);
 }
 
 .btnNum {
 
-    width: 97%;
+    width: 120px;
+    font-size: 31px;
+    color: rgb(250, 230, 117);
 
-    border: 2px dotted lightcoral;
+    background: rgb(92, 148, 194);
+
+    border: 1px dotted lightcoral;
 }
 
 .large-btn {
 
-    width: 99%;
+    width: 365px;
+    background: rgb(39, 167, 160);
+    font-size: 39px;
+    letter-spacing: 0.9rem;
+    color: rgb(170, 87, 143);
 
-    border: 3px dashed cornflowerblue;
+    border: 3px dashed yellow;
 }
 
 
