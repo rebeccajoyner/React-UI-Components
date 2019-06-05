@@ -1,14 +1,21 @@
 import React from 'react';
 import './Display.css';
 
-// import ActionButton from './ActionButton';
-// import NumberButton from './NumberButton';
-// import CalculatorDisplay from './CalculatorDisplay';
+
+import CalculatorDisplay from './CalculatorDisplay';
+import NumberButton from '../ButtonComponents/NumberButton';
+import ActionButton from '../ButtonComponents/ActionButton';
 
 
 const CalculatorContainer = () => {
     return (
         <div class="CalCon">
+
+            <CalculatorDisplay />
+
+            <NumberButton />
+
+            <ActionButton />
 
         </div>
     );

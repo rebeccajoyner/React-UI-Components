@@ -5,12 +5,10 @@ import './Display.css';
 
 
 
-const CalculatorDisplay = props => {
+const CalculatorDisplay = () => {
     return (
-        <div class="Display">
-            <h3>ZERO</h3>
-        </div>
+        <div className="CalDisplay">0</div>
     );
-};
+  };
 
 export default CalculatorDisplay;

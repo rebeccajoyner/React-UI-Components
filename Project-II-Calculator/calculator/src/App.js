@@ -10,9 +10,9 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   return (
-    <div>
+    <div class="Calc">
       <CalculatorContainer />
-      
+
         <CalculatorDisplay />
 
         <NumberButton />
