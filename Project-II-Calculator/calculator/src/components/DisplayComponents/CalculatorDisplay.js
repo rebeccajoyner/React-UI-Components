@@ -1,6 +1,8 @@
 import React from 'react';
 import './Display.css';
-
+import ActionButton from './ActionButton';
+import NumberButton from './NumberButton';
+    
 
 
 const CalculatorDisplay = () => {

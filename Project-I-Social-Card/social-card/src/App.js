@@ -17,7 +17,6 @@ const App = () => {
       <CardContainer />
 
       <Foot />
-
     </div>
   );
 };
