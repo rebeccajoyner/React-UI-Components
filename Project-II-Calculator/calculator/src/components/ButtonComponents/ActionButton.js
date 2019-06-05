@@ -5,9 +5,9 @@ import NumberButton from './NumberButton';
 
 const ActionButton = () => {
     return (
-        <div class="ActBtn">
+        <div class="actBtn">
 
-            <h2>clear</h2>
+            <h1>clear</h1>
                 <NumberButton />
             <h2>0</h2>
 
