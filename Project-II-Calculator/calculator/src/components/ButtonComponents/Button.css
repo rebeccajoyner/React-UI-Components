@@ -1,0 +1,56 @@
+
+
+.btnAll {
+    display: flex;
+    /* flex-wrap: nowrap; */
+
+    height: 80px;
+    width: 450px;
+
+}
+
+.btnAll .btnMath {
+
+    display: flex;
+    flex-basis: 100%;
+
+ 
+    background: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+   color: rgb(128, 100, 160);
+   font-weight: bold;
+
+    justify-content: center;
+
+    
+    
+    border: 2px groove rgb(125, 197, 252);
+}
+
+.btnNum {
+
+    width: 120px;
+    font-size: 31px;
+    color: rgb(250, 230, 117);
+    background: rgb(107, 107, 107);
+    
+
+    border-bottom: 3px dotted rgb(92, 148, 194);
+    border-top: 3px dotted  rgb(191, 230, 136);
+    border-right: 3px dotted rgb(233, 128, 195);
+    border-left: 3px dotted  rgb(182, 255, 251);
+}
+
+.large-btn {
+
+    width: 360px;
+    background: rgb(39, 167, 160);
+    font-size: 39px;
+    letter-spacing: 0.9rem;
+    color: rgb(170, 87, 143);
+
+    border: 5px double rgb(255, 255, 21);
+}
+
+
